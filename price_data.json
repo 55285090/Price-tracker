@@ -1,7 +1,7 @@
 {
   "Product 1": {
-    "url": "https://www.coles.com.au/product/ethical-zinc-spf-50+-natural-clear-zinc-sunscreen-100g-3820984",
-    "selector": "span.price__value",
+    "url": "https://www.uniquewholefood.com.au/collections/health-wellness/products/nutra-organics-collagen-body-with-fortibone-bone-strength-structure-unflavoured-450g-powder",
+    "selector": ".price__current",
     "last_price": "Not Checked"
   },
   "Product 2": {
