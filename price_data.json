@@ -1,12 +1,12 @@
 {
   "Product 1": {
     "url": "https://www.coles.com.au/product/ethical-zinc-spf-50+-natural-clear-zinc-sunscreen-100g-3820984",
-    "selector": ".price_value",
+    "selector": ".price__value",
     "last_price": "Not Checked"
   },
   "Product 2": {
     "url": "https://www.healthylife.com.au/products/moogoo-milk-shampoo-1-litre",
-    "selector": ".price-item--sale",
+    "selector": "#pdp-main-price p:first-of-type",
     "last_price": "Not Checked"
   }
 }
