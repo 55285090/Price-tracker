@@ -3,8 +3,8 @@ import json
 
 app = Flask(__name__)
 
-# Function to load price data from JSON
 def load_prices():
+    """Load product prices from JSON file."""
     try:
         with open("price_data.json", "r") as file:
             return json.load(file)
