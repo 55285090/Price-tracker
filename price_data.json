@@ -1,7 +1,8 @@
 {
   "Product 1": {
     "url": "https://www.coles.com.au/product/ethical-zinc-spf-50+-natural-clear-zinc-sunscreen-100g-3820984",
-    "selector": ".price span",
+    "selector": "span.price__value
+",
     "last_price": "Not Checked"
   },
   "Product 2": {
