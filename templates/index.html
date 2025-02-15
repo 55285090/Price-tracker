@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Tracker</title>
+</head>
+<body>
+    <h1>Tracked Product Prices</h1>
+    <table border="1">
+        <tr>
+            <th>Product</th>
+            <th>Last Price</th>
+            <th>Link</th>
+        </tr>
+        {% for product, details in prices.items() %}
+        <tr>
+            <td>{{ product }}</td>
+            <td>{{ details.last_price }}</td>
+            <td><a href="{{ details.url }}" target="_blank">View Product</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
